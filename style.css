@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: purple;
+}
+
+nav {
+  overflow: auto;
+}
+
+h1 {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#main {
+  clear: both;
+}
