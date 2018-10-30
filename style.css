@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* Header style */
+
 header {
   background-color: purple;
 }
@@ -29,8 +31,4 @@ li a {
   display: block;
   padding: 10px;
   text-decoration: none;
-}
-
-#main {
-  clear: both;
 }
