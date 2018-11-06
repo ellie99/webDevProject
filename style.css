@@ -22,16 +22,43 @@ nav ul li {
 
 li a {
     display:inline-block;
-    padding:10px;
     color: black;
     text-decoration: none;
     font-family: 'Syncopate', sans-serif;
     font-size: 20px;
+    margin: 10px 20px;
+
+}
+
+header h1 {
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    margin: 10px 0;
 
 }
 
 /* Quote */
 
- #quote img {
-   width: 100%;
- }
+#quote {
+  background-image: url(photos/village1.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+}
+#quote div {
+  display: block;
+  width: 60%;
+  padding:200px 0;
+  margin: 0 auto;
+
+}
+
+
+#quote div p {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
