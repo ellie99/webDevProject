@@ -39,7 +39,7 @@ header h1 {
 
 /* Quote */
 
-#quote {
+.quote {
   background-image: url(photos/village1.jpg);
   background-repeat:no-repeat;
   background-size: cover;
@@ -47,7 +47,7 @@ header h1 {
   position: relative;
 
 }
-#quote div {
+.quote div {
   display: block;
   width: 60%;
   padding:200px 0;
@@ -55,10 +55,38 @@ header h1 {
 
 }
 
-
-#quote div p {
+#quote {
   font-family: 'Syncopate', sans-serif;
   font-size: 40px;
   color: white;
   text-align: center;
+}
+
+#oprah {
+  text-align: center;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+/* About me */
+
+.aboutme {
+  padding-top: 30px;
+}
+
+.aboutme h1 {
+  font-family: 'Syncopate', sans-serif;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.aboutme div p {
+  font-family: 'Syncopate', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
 }
