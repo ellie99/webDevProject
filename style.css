@@ -102,19 +102,35 @@ header h1 {
 
 }
 
-
-.col p {
+.col-style p {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   text-align: justify;
 }
 
-.col img {
+.col-style img {
   max-width:100%;
   max-height:100%;
 }
 
+@media (max-width: 800px) {
+   .col {
+     display: block;
+     width: 100%;
+   }
+
+
+}
+
+.fixedtarnovo {
+  display: block;
+  width: 100%;
+  height:600px;
+  background: transparent;
+}
+
+/*
 .fixedtarnovo {
   background-image: url(photos/tarnovo1.jpg);
   background-attachment: fixed;
@@ -124,6 +140,8 @@ header h1 {
   width:100%;
   height: 500px;
 }
+
+*/
 
 /* Hobbies */
 
@@ -209,78 +227,164 @@ header h1 {
 
     /* Footer */
 
-    footer {
-      overflow: auto;
+    .footer-distributed{
+    	background-color: white;
+    	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    	box-sizing: border-box;
+    	width: 100%;
+    	text-align: left;
+    	font: bold 16px sans-serif;
+    	padding: 50px;
     }
 
-    .wrapper {
-      overflow: auto;
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    	display: inline-block;
+    	vertical-align: top;
     }
 
-    footer div div p {
-      padding: 0;
-      margin: 0;
+    /* Footer left */
+
+    .footer-distributed .footer-left{
+    	width: 30%;
     }
 
-    .name {
+
+
+    .footer-left h3 {
       font-family: 'Syncopate', sans-serif;
       text-align: center;
-      font-size: 20px;
-      float: left;
+      font-size: 30px;
+      color: black;
     }
 
-    .f1 {
-      overflow: auto;
-      display: inline-block;
-      float: left;
+    #firstname {
+      margin-top: 30px;
     }
 
-    .number {
-      width: 300px;
-      height: 24px;
-      overflow: auto;
+    #secondname {
+      margin-top: 20px;
     }
 
-    .number i {
-      margin: 4px 5px;
 
-    }
 
-    .number i, .number p {
-      float: left;
-    }
 
-    .location {
-      width: 300px;
-      height: 24px;
-      overflow: auto;
-    }
+    /* Footer Center */
 
-    .location i, .location p {
-      float: left;
-    }
-
-    .location i {
-    margin: 4px 5px;
-
+    .footer-distributed .footer-center{
+    	width: 45%;
 
     }
 
-    .email {
-      width: 300px;
-      height: 24px;
-      overflow: auto;
+    .footer-distributed .footer-center i{
+    	background-color: #4A2545;
+    	color: #ffffff;
+    	font-size: 25px;
+    	width: 38px;
+    	height: 38px;
+    	border-radius: 50%;
+    	text-align: center;
+    	line-height: 42px;
+    	margin: 10px 15px;
+    	vertical-align: middle;
     }
 
-    .email i, .email p {
-      float: left;
+    .footer-distributed .footer-center i.fa-envelope{
+    	font-size: 17px;
+    	line-height: 38px;
     }
 
-    .email i {
-      margin: 4px 5px;
-
+    .footer-distributed .footer-center p{
+    	display: inline-block;
+    	color: black;
+    	vertical-align: middle;
+    	margin:0;
     }
 
-    .f2 {
-      float: left;
+    .footer-distributed .footer-center p span{
+    	display:block;
+    	font-weight: normal;
+    	font-size:14px;
+    	line-height:2;
+    }
+
+     .footcenter div p {
+      text-align: center;
+    }
+
+.center-element{
+  text-align: center;
+}
+
+.center-element div{
+  display: inline-block;
+}
+
+    /* Footer Right */
+
+    .footer-distributed .footer-right{
+    	width: 20%;
+    }
+
+    .footer-distributed .footer-company-about{
+    	line-height: 20px;
+    	color:  #92999f;
+    	font-size: 13px;
+    	font-weight: normal;
+    	margin: 0;
+    }
+
+    .footer-distributed .footer-company-about span{
+    	display: block;
+    	color:  #ffffff;
+    	font-size: 14px;
+    	font-weight: bold;
+    	margin-bottom: 20px;
+    }
+
+    .footer-distributed .footer-icons{
+    	margin-top: 25px;
+    }
+
+    .footer-distributed .footer-icons a{
+    	display: inline-block;
+    	width: 35px;
+    	height: 35px;
+    	cursor: pointer;
+    	background-color:  #4A2545;
+    	border-radius: 2px;
+
+    	font-size: 20px;
+    	color: #ffffff;
+    	text-align: center;
+    	line-height: 35px;
+
+    	margin-right: 3px;
+    	margin-bottom: 5px;
+    }
+
+    /* If you don't want the footer to be responsive, remove these media queries */
+
+    @media (max-width: 880px) {
+
+
+    	.footer-distributed{
+    		font: bold 14px sans-serif;
+    	}
+
+    	.footer-distributed .footer-left,
+    	.footer-distributed .footer-center,
+    	.footer-distributed .footer-right{
+    		display: block;
+    		width: 100%;
+    		margin-bottom: 40px;
+    		text-align: center;
+    	}
+
+
+    	.footer-distributed .footer-center i{
+    		margin-left: 0;
+    	}
+
     }

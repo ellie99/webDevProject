@@ -11,6 +11,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -31,8 +32,8 @@
       <h1> Elisaveta Peeva </h1>
       <nav>
         <ul>
-          <li id="active"> <a href="#shome"> Home</a> </li>
-          <li> <a href="#projects"> Projects </a> </li>
+          <li id="active"> <a href="main.html"> Home</a> </li>
+          <li> <a href="projects.html"> Projects </a> </li>
           <li> <a href="#cv"> CV </a> </li>
           <li> <a href="#contact"> Contact me </a> </li>
         </ul>
@@ -56,19 +57,18 @@
     <div class="container">
       <div class="tarnovo row">
 
-        <div class="col">
-          <div class="">
+        <div class="col-md-6 col-sm-12 col-style" >
+
               <p> Hello! My name is Elisaveta Peeva. I am 19 years old and
                 I was born in Veliko Tarnovo, a little town in Central Bulgaria. In 2018 I graduated from the Highschool of Maths and Science, in which I studied
                   programming for 5 years. Later that year I enrolled in Dundee University where
                      I am in my first year, Computing Science BSc.  </p>
-          </div>
         </div>
 
-        <div class="col" >
-          <div class="">
+        <div class="col-md-6 col-sm-12 col-style" >
+
             <img src="photos/flag.png" />
-          </div>
+
         </div>
 
       </div>
@@ -76,7 +76,9 @@
 
   </div>
 
-    <div class="fixedtarnovo"> </div>
+    <div class="fixedtarnovo" data-parallax="scroll" data-image-src="photos/tarnovo.jpg">
+
+    </div>
 
   <!-- Hobbies -->
 
@@ -113,39 +115,56 @@ find a proper solution for them. </p>
   </div>
 </div>
 
-<footer>
+<footer class="footer-distributed">
 
-  <div class="wrapper" >
+			<div class="footer-left">
 
-      <div class="name">
-        <p> Elisaveta <p>
-        <p> Peeva <p>
-      </div>
+				<h3 id="firstname"> Elisaveta </h3>
+        <h3 id="secondname"> Peeva </h3>
 
-      <div class="f1">
-        <div class="number">
-          <i class="fas fa-phone"></i>
-          <p> +359 888 24 33 76 </p>
+
+			</div>
+
+			<div class="footer-center">
+        <div class="center-element">
+          <div>
+  					<i class="fa fa-map-marker"></i>
+  					<p><span>Momina Krepost 1</span> Veliko Tarnovo, Bulgaria </p>
+  				</div>
         </div>
-        <div class="location">
-          <i class="fas fa-map-marker-alt"></i>
-          <p> Momina Krepost 1, Veliko Tarnovo </p>
-        </div>
-        <div class="email">
-          <i class="fas fa-envelope"></i>
-          <p> elisaveta.peeva@gmail.com </p>
-        </div>
-      </div>
 
-      <div class="f2">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-pinterest-square"></i>
-      </div>
-
+<div class="center-element">
+  <div>
+    <i class="fa fa-phone"></i>
+    <p>+359 888 24 33 76</p>
   </div>
+</div>
 
-</footer>
+<div class="center-element">
+  <div>
+    <i class="fa fa-envelope"></i>
+    <p>elisaveta.peeva@gmail.com</p>
+  </div>
+</div>
+
+
+			</div>
+
+			<div class="footer-right">
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-pinterest"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
 
 
 <!-- Parallax.js -->
