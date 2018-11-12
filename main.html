@@ -2,15 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <meta charset="utf-8">
     <title> Ellie's website </title>
   </head>
@@ -34,7 +40,7 @@
     </header>
 
 <!-- Quote -->
-  <div class="quote">
+  <div class="quote" data-parallax="scroll" data-image-src="photos/village1.jpg" >
     <div >
       <p id="quote"> "Do what you have to do until you can do what you want to do. " </p>
       <p id="oprah"> - Oprah Winfrey </p>
@@ -46,44 +52,120 @@
 
   <div class="aboutme">
     <h1> About me </h1>
-    <div  data-aos="fade-up" class="">
-      <p data-aos="fade-up" > I come from a little city in Central Bulgaria </p>
-      <img src="photos/coatofarms.png" />
+
+    <div class="container">
+      <div class="tarnovo row">
+
+        <div class="col">
+          <div class="">
+              <p> Hello! My name is Elisaveta Peeva. I am 19 years old and
+                I was born in Veliko Tarnovo, a little town in Central Bulgaria. In 2018 I graduated from the Highschool of Maths and Science, in which I studied
+                  programming for 5 years. Later that year I enrolled in Dundee University where
+                     I am in my first year, Computing Science BSc.  </p>
+          </div>
+        </div>
+
+        <div class="col" >
+          <div class="">
+            <img src="photos/flag.png" />
+          </div>
+        </div>
+
+      </div>
     </div>
 
   </div>
 
+    <div class="fixedtarnovo"> </div>
+
+  <!-- Hobbies -->
+
+<div class="hobbies">
+  <p> Outside of my study time, I take part in different activities, such as: </p>
+
+  <!-- Photography -->
+
+  <div class="photography">
+    <h1> Photography </h1>
+    <div class="row">
+      <div class="column">
+        <img data-aos="fade-up" data-aos-delay="100" src="photos/p/1.jpg" style="width:100%">
+        <img data-aos="zoom-in" data-aos-delay="200" src="photos/p/4.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img data-aos="fade-up" data-aos-delay="300" src="photos/p/7.jpg" style="width:100%">
+        <img data-aos="zoom-in" data-aos-delay="300" src="photos/p/8.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <!-- Music -->
+
+  <div class="music">
+    <h1> Music </h1>
+    <p> Another thing that has had a big impact in my life was my decision to become a self-taught
+piano player. Not only did this teach me perseverance , but also helped me learn how to stay
+motivated and patient. The qualities that I had developed by playing the piano, have helped
+me more than once when confronted with difficult tasks in my daily life and when having to
+find a proper solution for them. </p>
 
 
+  </div>
+</div>
 
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
-<p>scroll</p>
+<footer>
+
+  <div class="wrapper" >
+
+      <div class="name">
+        <p> Elisaveta <p>
+        <p> Peeva <p>
+      </div>
+
+      <div class="f1">
+        <div class="number">
+          <i class="fas fa-phone"></i>
+          <p> +359 888 24 33 76 </p>
+        </div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          <p> Momina Krepost 1, Veliko Tarnovo </p>
+        </div>
+        <div class="email">
+          <i class="fas fa-envelope"></i>
+          <p> elisaveta.peeva@gmail.com </p>
+        </div>
+      </div>
+
+      <div class="f2">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-square"></i>
+      </div>
+
+  </div>
+
+</footer>
+
+
+<!-- Parallax.js -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax.js/parallax.js"></script>
+
+
+<!-- Animated on scroll library -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- Bootstrap -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
   </body>
