@@ -37,6 +37,19 @@ li a {
 
 }
 
+#active {
+  color: #4A2545;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+#active:hover {
+  color: rgb(255, 204, 153);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+
+}
+
 a:hover {
   color: black;
   text-decoration: none;
