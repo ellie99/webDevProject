@@ -96,3 +96,20 @@ header h1 {
   font-size: 25px;
   margin-top: 15px;
 }
+
+  /* Projects */
+
+  .projects h1 {
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 30px 0;
+  }
+
+  .projects p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20%;
+  }
