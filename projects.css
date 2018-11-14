@@ -183,6 +183,13 @@ header h1 {
     padding-top: 30px;
   }
 
+  footer {
+    padding-bottom: 20px;
+      border-top:1px solid #ccc;
+      border-width:1px 0;
+
+  }
+
   /* Footer left */
 
 
