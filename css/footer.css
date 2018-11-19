@@ -1,0 +1,112 @@
+/* Footer */
+
+.fleft, .fcenter, .fright {
+  padding-top: 30px;
+}
+
+footer {
+  padding-bottom: 20px;
+  border-top:1px solid #ccc;
+  border-width:1px 0;
+}
+
+/* Footer left */
+
+
+.fleft h3 {
+  font-family: 'Syncopate', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+#firstname {
+  margin-top: 30px;
+}
+
+#secondname {
+  margin-top: 20px;
+}
+
+
+
+
+/* Footer Center */
+
+
+.fcenter div i{
+  background-color: #4A2545;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+
+.fcenter div p{
+  display: inline-block;
+  color: black;
+  vertical-align: middle;
+  margin:0;
+}
+
+.fcenter div p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+ .footcenter div p {
+  text-align: center;
+}
+
+.fcenter {
+  text-align: center;
+}
+
+.fcenter .ib {
+  display: inline-block;
+}
+
+
+
+/* Footer Right */
+
+.fright div p span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.fright div a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #4A2545;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.fright div {
+  display: inline;
+}
+
+.fright {
+  text-align: center;
+}

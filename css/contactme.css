@@ -1,19 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Syncopate');
-html, body {
-  width: 100%;
+body {
   height: 100%;
-  margin: 0;
-  padding: 0;
-
-}
-
-* {
-  padding: 0;
-  margin: 0;
 }
 
 /* Header style */
-
 
 ul {
   border:1px solid #ccc;
@@ -77,48 +66,43 @@ header h1 {
 
 }
 
-/* CV */
+/* Contact me */
 
-.container {
-  margin-top: 30px ;
+.contactme {
   margin-bottom: 30px;
 }
 
-.cat {
-  font-weight: bold;
+
+.ctext h2 {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.cv .container .row {
-  border-bottom-style: solid;
-  border-width: 1px;
-  padding: 7px 0;
-
-}
-
-.one {
-  border-top-style: solid;
-  border-width: 1px;
-}
-
-.row div p {
+.ctext p {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-  padding: 0;
-  margin: 0;
 }
 
-.orange {
-  background-color: rgb(254, 235, 197);
+.col-lg-6 img {
+  padding-bottom: 20px;
+  width: 100%;
 }
 
-.purple {
-  background-color: #ECE5E8;
+.cmrow .col-lg-6 {
+  margin-top: 30px;
 }
 
 /* Footer */
 
 .fleft, .fcenter, .fright {
   padding-top: 30px;
+}
+
+footer {
+  padding-bottom: 20px;
+  border-top:1px solid #ccc;
+  border-width:1px 0;
 }
 
 /* Footer left */
@@ -220,9 +204,4 @@ header h1 {
 
 .fright {
   text-align: center;
-}
-
-footer {
-  border-top:1px solid #ccc;
-  border-width:1px 0;
 }

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* CV */
+
+.container {
+  margin-top: 30px ;
+  margin-bottom: 30px;
+}
+
+.cat {
+  font-weight: bold;
+}
+
+.cv .container .row {
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding: 7px 0;
+
+}
+
+.one {
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.row div p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.orange {
+  background-color: rgb(254, 235, 197);
+}
+
+.purple {
+  background-color: #ECE5E8;
+}
