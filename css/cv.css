@@ -21,7 +21,8 @@ html, body {
   margin-bottom: 30px;
 }
 
-.cat {
+/* making the left side of the table bold */
+.ls {
   font-weight: bold;
 }
 
