@@ -101,6 +101,10 @@ html, body {
 
    /* Photography */
 
+   .photography .container .row .column img {
+     width: 100%;
+   }
+
 
     .photography h1 {
       font-family: 'Syncopate', sans-serif;
